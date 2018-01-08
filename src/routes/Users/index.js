@@ -5,6 +5,7 @@ import {Button} from 'antd'
 import UsersComponent from '../../components/Users/Users';
 
 function Users(users) {
+	console.log('zaijian')
   return (
     <div className={styles.normal}>
       <UsersComponent
